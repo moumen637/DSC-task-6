@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    overflow: hidden;
+   
+}
+
+
+
+/*--------Start first-sec-----------------*/
+.contanir{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.first-sec{
+    background-color: #eee;
+    width: 100vw;
+    height: 60vh;
+}
+.first-sec .sub-content{
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+    position: relative;
+}
+.first-sec .sub-content h1{
+    color: red;
+    font-weight: bold;
+    padding: 70px 0 10px 0;
+    font-size: 2em;
+}
+.first-sec .sub-content p{
+    color:#a0a1a5;
+    line-height: 2.5;
+}
+.first-sec .sub-content span{
+    color:rgba(220, 120, 120, 0.4);
+    font-size: 8em;
+    font-weight: bolder;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+.first-sec .images{
+    width: 50%;
+    height: 380px;
+    background-image: url(./images/img\ 1.jpg);
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.first-sec .images .sub-img img:nth-of-type(1){
+    width: calc(100% / 3.2);
+    height: calc(100% / 3);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: 2px solid white;
+}
+.first-sec .images .sub-img img:nth-of-type(2){
+    width: calc(100% / 3.2);
+    height: calc(100% / 3);
+    position: absolute;
+    bottom: 10px;
+    left: 198px;
+    border: 2px solid white;
+}
+
+.first-sec .images .sub-img img:nth-of-type(3){
+    width: calc(100% / 3.2);
+    height: calc(100% / 3);
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    border: 2px solid white;
+}
+/*-------------End first-sec--------------------------*/
+
+.second-sec{
+    margin: 60px 230px;
+    line-height: 2rem;
+}
+.second-sec h1{
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 35px;
+}
+.content{
+    float: left;
+    width: 300px;
+    background-color: #DCDCDC;
+    margin: 20px 20px;
+} 
+.info{
+  margin-left: 20px;
+  text-align: left;
+}
+.blog{
+    margin-left: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.figCaptionphoto{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+} 
+.Caption{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    padding-bottom: 30px;
+}
